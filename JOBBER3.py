@@ -115,7 +115,7 @@ def detect_job_category(job_text):
 @st.cache_resource
 def load_models():
     clf_model = joblib.load("model.pkl")
-    tfidf_vec = joblib.load("resume_vectorizer.pkl")
+    tfidf_vec = joblib.load("resume_vectorizer2.pkl")
     sbert = SentenceTransformer('paraphrase-MiniLM-L6-v2')
     return clf_model, tfidf_vec, sbert
 
