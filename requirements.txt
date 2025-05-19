@@ -1,5 +1,5 @@
-numpy==1.24.4
-scikit-learn==1.2.2
+streamlit
+numpy
 pandas
 scikit-learn
 scipy
@@ -8,5 +8,4 @@ sentence-transformers
 huggingface_hub
 PyPDF2
 docx2txt
-transformers
 torch
