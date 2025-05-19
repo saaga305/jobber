@@ -11,6 +11,8 @@ import PyPDF2
 import docx2txt
 import sklearn
 import numpy
+st.set_page_config(page_title="SmartHireAI", layout="centered", page_icon="🤖")
+
 st.write("🧪 scikit-learn version:", sklearn.__version__)
 st.write("🧪 numpy version:", numpy.__version__)
 
